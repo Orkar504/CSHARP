@@ -35,7 +35,7 @@ Visual Studio es un entorno integrado de desarrollo (IDE, por sus siglas en ingl
 Se estará actualizando este README.md cada vez que se genere un nuevo codigo con una explicación sencilla junto a un programa mas de aplicación de lo aprendido.
 
 ## ¡Comencemos!
-Una vez descragado e instalado Visual Studio 2022 empezamos.
+Una vez descargado e instalado Visual Studio 2022 empezamos.
 Como todo buen inicio debemos empezar con lo básico, primero abriremos Visual Studio 2022 luego seleccionaremos crear nuevo proyecto, de ahi iremos a crear una nueva aplicación de consola. Le colocamos el nombre deseado al proyecto y damos inicio.
 
 Luego de todo esto borramos Cualquier archivo .cs que nos cree el proyecto para asi empezar de cero. Con esto hacemos click derecho en el explorador de soluciones y creamos un nuevo archivo llamado Programa.cs para asi empezar con nuestro proyecto.
@@ -98,9 +98,9 @@ using System;
 
 namespace CSHARP //El "CSHARP" es el nombre del Proyecto
 {
-    internal class Main //"Main" es el nombre del archivo .cs
+    internal class Principal //"Programa" es el nombre del archivo .cs
     {
-        static void main (String[] args) // Static void main
+        static void Main(String[] args) //El static void Main es para indicar que esta función se ejecutará primero cuando se ejecture el programa
         {
             /*Codigo*/
         }
@@ -108,4 +108,24 @@ namespace CSHARP //El "CSHARP" es el nombre del Proyecto
 }
 
  ```
+
+ Con esto completo, realizaremos varios cambios en el archivo .cs llamado:
+ > Programa.cs
+ ```
+ using System;
+
+namespace CSHARP //El "CSHARP" es el nombre del Proyecto
+{
+    internal class Programa //"Programa" es el nombre del archivo .cs
+    {
+       
+        static void HolaMundo() //Usamos HolaMundo() sustituyendo  el static void Main.
+        {
+            Console.WriteLine("Hola Mundo");
+        }
+    }
+}
+
+ ```
+ ### Maquina Parlante
 
