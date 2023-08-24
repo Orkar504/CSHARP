@@ -1,5 +1,5 @@
 # C# REPOSITORIO
-![C#](https://www.luisdev.com.br/wp-content/uploads/2021/03/Desktop-1.png)
+
 ## GITHUB USER: Orkar504
 ![PFP](https://avatars.githubusercontent.com/u/14796673?v=4)
 ## MOTIVO
@@ -9,6 +9,10 @@ El motivo del siguiente repositorio es para mejorar mis habilidades de **C#** me
 ## Planificacion
 Primero Indagaremos en la sintaxis basica de c# para luego realizar un pequeño proyecto al momento de lectura de archivos, ser capaz de identificar y leer cualquier extensión de archvos para luego realizar un DAO para leer e interpretar estos datos, esto con el fin de utilizarlo en futuros proyectos.  
 
+# Lenguaje de Programación
+## C#
+![C#](https://www.luisdev.com.br/wp-content/uploads/2021/03/Desktop-1.png)
+C# (pronunciado "C sharp") es un lenguaje de programación orientado a objetos desarrollado por Microsoft. Fue creado como parte de la plataforma .NET para facilitar el desarrollo de aplicaciones de software tanto en el ámbito de escritorio como en el ámbito web. C# combina elementos de lenguajes como C++ y Java, y se enfoca en la simplicidad, la seguridad y la facilidad de uso.
 ## Plataformas a utilizar 
 ### W3SCHOOLS
 ![W3SCHOOLS](https://coursereport-s3-production.global.ssl.fastly.net/uploads/school/logo/1691/original/306149583_580886133837672_8720407359695224497_n.png)
