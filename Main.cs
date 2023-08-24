@@ -8,5 +8,9 @@ namespace CSHARP
 {
     internal class Main
     {
+        static void main (String[] args)
+        {
+            /*Codigo*/
+        }
     }
 }
