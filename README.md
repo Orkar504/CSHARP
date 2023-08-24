@@ -46,7 +46,7 @@ La sintaxis para lograr que la computadora nos hable en C# es la siguiente:
 ```
 Console.WriteLine("Hola Mundo");
 ```
-Esta instrucción simple pero maravillosa nos permite hablar con la computadora, le decimos al mundo **HOLA** estoy aqui. ¡¡¡Es fascinante podemos hacer que una computadora hable!!! 
+Esta instrucción simple pero maravillosa nos permite hablar que la computadora nos hable, le decimos al mundo **HOLA** estoy aqui a través del código. ¡¡¡Es fascinante podemos hacer que una computadora hable!!! 
 
 <br></br>
 El siguiente código es un ejemplo de implementar el 
@@ -85,7 +85,7 @@ Este programa no enseña lo que es imprimir en consola, como mostarle al usuario
  Así que empezemos :)
 
  ### Cambios a realizar :o
- Bien indagaremos acerca de los cambios a realizar para que en el futuro del Proyecto.
+ Bien indagaremos acerca de los cambios a realizar para que en el futuro del proyecto no tengamos inconvenientes.
  Primero realizaremos estos cambios sin explicación y a medidad que avancemos en este proyecto los iremos describiendo poco a poco.
 
  Bien crearemos un nuevo archivo .cs llamado:
@@ -129,4 +129,56 @@ namespace CSHARP //El "CSHARP" es el nombre del Proyecto
  ```
  ### Maquina Parlante
  Primero crearemos un nuevo archivo .cs llamado
- > Maquina Parlante
+ > Maquina Parlante.cs
+ 
+ Aquí haremos nuestra maquina parlante de la siguiente manera
+ ```
+ using System;
+
+namespace CSHARP //El "CSHARP" es el nombre del Proyecto
+{
+    internal class MaquinaParlante //"MaquinaParlante" es el nombre del archivo .cs
+    {
+        public void Mensaje() //Este es el nombre del metodo
+        {
+            Console.WriteLine("Hola <<Tu nombre>>, mucho gusto yo soy la consola de c#");
+            Console.WriteLine("Esta conversación la hago para mostar la capacidad de una maquina en hablar a través de mensajes :)");
+            Console.WriteLine("Es un Placer Conocerte :) que tengas un muy buen dia");
+        }
+    }
+}
+ ```
+
+ ¿Pero, como MaquinaParlante no tiene un static void Main(strings[] args) como lo podremos llamar?
+ Aqui es donde entran los llamados a los métodos. como mencione anteriormente no explicare a detalle en este punto que son los llamados a metodos, es algo mas complicado que veremos adelante.
+ 
+ Nos iremos al siguiente archivo:
+ > Principal.cs
+
+ En este escribiremos el siguiente código:
+ ```
+ using System;
+
+namespace CSHARP //El "CSHARP" es el nombre del Proyecto
+{
+    internal class Principal
+    {
+        static void Main(String[] args)
+        {
+            MaquinaParlante mensaje = new MaquinaParlante(); //Llamar a maquina Parlante
+
+            mensaje.Mensaje(); //Ejecutar el método mensaje de Maquina Parlante
+        }
+    }
+}
+ ```
+ Con este código llamamos al archivo maquina parlante y ejecutamos su método Mensaje() que no permite mostrar el mensaje que escribimos en el programa.
+ 
+ Con esto  nos debería dar el siguiente mensaje en la consola:
+ ![MensajeConsola](Capturas-de-pantalla/HolaMundo/Mensaje.png)
+
+ 
+
+ # ¡Felíz Programación!
+ ---
+ By: @Orkar504

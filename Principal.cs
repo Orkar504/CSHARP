@@ -6,7 +6,9 @@ namespace CSHARP
     {
         static void Main(String[] args)
         {
-            /*Codigo*/
+            MaquinaParlante mensaje = new MaquinaParlante();
+
+            mensaje.Mensaje();
         }
     }
 }
