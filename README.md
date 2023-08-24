@@ -68,7 +68,7 @@ namespace CSHARP //El CSHARP es el nombre del Proyecto
 
 ```
 
-> Imagen ![Hola Mundo Local](https://github.com/Orkar504/CSHARP/blob/master/Capturas-de-pantalla/HolaMundo/HolaMundo.png)
+> Imagen ![Hola Mundo Local](Capturas-de-pantalla/HolaMundo/HolaMundo.png)
 
 
 Utilizamos System para poder ejecutar los comandos como Console.
