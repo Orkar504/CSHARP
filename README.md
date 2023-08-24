@@ -72,7 +72,8 @@ namespace CSHARP //El CSHARP es el nombre del Proyecto
 
 
 Utilizamos System para poder ejecutar los comandos como Console.
-El namespace representa el nombre de nuestro proyecto en este caso **CSHARP**, el nombre **Programa**  En la clausa de internal class  es el nombre del Programa..
+El namespace representa el nombre de nuestro proyecto en este caso **CSHARP**, el nombre **Programa**  En la clausa de internal class  es el nombre del Programa.
+Utilizamos Static void Main para indicar que esta método es el principal en ejecutar al momento ejecutar nuestro Proyecto.
 
 Este programa no enseña lo que es imprimir en consola, como mostarle al usuario a traves de una consola como utilizar esto para fúturos proyectos que iremos indagando a traves de este repositorio de github.com/@Orkar504 para que así logremos comprender e implementar c# en nuestra programación.
  

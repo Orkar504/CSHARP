@@ -6,7 +6,7 @@ namespace CSHARP
     internal class Programa
     {
        
-        static void Main(string[] args)
+        static void HolaMundo()
         {
             MaquinaParlante Mensajero = new MaquinaParlante();
 
