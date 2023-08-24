@@ -89,7 +89,7 @@ Este programa no enseña lo que es imprimir en consola, como mostarle al usuario
  Primero realizaremos estos cambios sin explicación y a medidad que avancemos en este proyecto los iremos describiendo poco a poco.
 
  Bien crearemos un nuevo archivo .cs llamado:
- > Main.cs
+ > Principal.cs
 
  Este Main haremos los llamados para todos los futuros programas y tendra la siguiente sintaxis:
 
@@ -128,4 +128,5 @@ namespace CSHARP //El "CSHARP" es el nombre del Proyecto
 
  ```
  ### Maquina Parlante
-
+ Primero crearemos un nuevo archivo .cs llamado
+ > Maquina Parlante
