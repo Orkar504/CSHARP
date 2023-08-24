@@ -81,3 +81,4 @@ Este programa no enseña lo que es imprimir en consola, como mostarle al usuario
 
  ### Una conversación unilateral 
  El siguiente programa tratará de simular que una computadora nos esta contando algo, ya sea algo simple como fui a la tienda o algo mas complejo como una pequeña historia. 
+ Así que empezemos :)
