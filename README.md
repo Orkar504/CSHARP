@@ -67,8 +67,17 @@ namespace CSHARP //El CSHARP es el nombre del Proyecto
 }
 
 ```
+
+> Imagen ![Hola Mundo Local](\Capturas-de-pantalla\HolaMundo\HolaMundo.png)
+
+
 Utilizamos System para poder ejecutar los comandos como Console.
 El namespace representa el nombre de nuestro proyecto en este caso **CSHARP**, el nombre **Programa**  En la clausa de internal class  es el nombre del Programa..
 
 Este programa no enseña lo que es imprimir en consola, como mostarle al usuario a traves de una consola como utilizar esto para fúturos proyectos que iremos indagando a traves de este repositorio de github.com/@Orkar504 para que así logremos comprender e implementar c# en nuestra programación.
  
+ <br></br>
+ **¡Ahora empezaremos con la aplicación!**
+
+ ### Una conversación unilateral 
+ El siguiente programa tratará de simular que una computadora nos esta contando algo, ya sea algo simple como fui a la tienda o algo mas complejo como una pequeña historia. 
