@@ -31,15 +31,15 @@ Microsoft Learn es una plataforma educativa en línea creada por Microsoft que t
 Visual Studio es un entorno integrado de desarrollo (IDE, por sus siglas en inglés) desarrollado por Microsoft. Está diseñado para ayudar a los programadores y desarrolladores en la creación, depuración y mantenimiento de software, ya sea para aplicaciones de escritorio, web, móviles o de otro tipo. Visual Studio ofrece una amplia gama de herramientas y funciones que facilitan todo el ciclo de vida del desarrollo de software.
 
 
-## Los Codigos
+# Los Codigos
 Se estará actualizando este README.md cada vez que se genere un nuevo codigo con una explicación sencilla junto a un programa mas de aplicación de lo aprendido.
 
-### ¡Comencemos!
+## ¡Comencemos!
 Una vez descragado e instalado Visual Studio 2022 empezamos.
 Como todo buen inicio debemos empezar con lo básico, primero abriremos Visual Studio 2022 luego seleccionaremos crear nuevo proyecto, de ahi iremos a crear una nueva aplicación de consola. Le colocamos el nombre deseado al proyecto y damos inicio.
 
 Luego de todo esto borramos Cualquier archivo .cs que nos cree el proyecto para asi empezar de cero. Con esto hacemos click derecho en el explorador de soluciones y creamos un nuevo archivo llamado Programa.cs para asi empezar con nuestro proyecto.
-### El Mítico "Hola mundo"
+## El Mítico "Hola mundo"
 
 En la programación tenemos una práctica simple pero bien bonita, lo que se le conoce como el *Hola mundo*. 
 La sintaxis para lograr que la computadora nos hable en C# es la siguiente:
@@ -55,7 +55,7 @@ El siguiente código es un ejemplo de implementar el
 using System;
 
 
-namespace CSHARP //El CSHARP es el nombre del Proyecto
+namespace CSHARP //El "CSHARP" es el nombre del Proyecto
 {
     internal class Programa //Programa es el nombre del archivo .cs
     {
@@ -80,6 +80,32 @@ Este programa no enseña lo que es imprimir en consola, como mostarle al usuario
  <br></br>
  **¡Ahora empezaremos con la aplicación!**
 
- ### Una conversación unilateral 
+ ## Una conversación unilateral 
  El siguiente programa tratará de simular que una computadora nos esta contando algo, ya sea algo simple como fui a la tienda o algo mas complejo como una pequeña historia. 
  Así que empezemos :)
+
+ ### Cambios a realizar :o
+ Bien indagaremos acerca de los cambios a realizar para que en el futuro del Proyecto.
+ Primero realizaremos estos cambios sin explicación y a medidad que avancemos en este proyecto los iremos describiendo poco a poco.
+
+ Bien crearemos un nuevo archivo .cs llamado:
+ > Main.cs
+
+ Este Main haremos los llamados para todos los futuros programas y tendra la siguiente sintaxis:
+
+ ```
+using System;
+
+namespace CSHARP //El "CSHARP" es el nombre del Proyecto
+{
+    internal class Main //"Main" es el nombre del archivo .cs
+    {
+        static void main (String[] args) // Static void main
+        {
+            /*Codigo*/
+        }
+    }
+}
+
+ ```
+
