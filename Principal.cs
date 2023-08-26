@@ -6,9 +6,27 @@ namespace CSHARP
     {
         static void Main(String[] args)
         {
+            /*
+            Llamar a Maquina Parlante
+             
             MaquinaParlante mensaje = new MaquinaParlante();
-
             mensaje.Mensaje();
+            */
+
+            /*
+          
+             Llamar a Hola mundo
+
+            Programa programa = new Programa();
+            programa.HolaMundo();
+
+            Para llamar a hola mundo converitmos el static void de programa a public void :)
+             
+             */
+
+
+
+
         }
     }
 }
