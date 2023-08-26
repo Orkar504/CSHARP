@@ -11,9 +11,6 @@ public class Syntax
 
 		} */
 
-		static void syntax()
-		{
-			Console.WriteLine("Explicando la sintaxis de c#");
-		}
+		Console.WriteLine("Explicando la sintaxis de c#");
 	}
 }
