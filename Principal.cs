@@ -39,10 +39,31 @@ namespace CSHARP
              
              */
 
-            /* Llamar a salidas 2*/
-
+            /* Llamar a salidas 2
+             
+             
             Salidas2 salida2 = new Salidas2();
             salida2.salidas2();
+
+             */
+
+            /*
+             Llamar a variables
+             */
+            Variables variables = new Variables();
+
+            variables.variables();
+
+            //Llamando a las variables globales de variables
+            
+            Console.Write("Llamando las variables globales de variables a Principal: ");
+            Console.WriteLine(variables.cadena);
+
+            //editando la variable de variables para que ahora diga en el resto del código edicion 1
+            variables.cadena = "edición 1";
+            Console.Write("Editando la variale cadena con respecto a este código: ");
+            Console.WriteLine(variables.cadena);
+
 
 
         }

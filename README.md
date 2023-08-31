@@ -417,6 +417,9 @@ namespace CSHARP
  Y la consola nos muestra el siguiente mensaje:
  ![Salidas2](Capturas-de-pantalla/Salidas/Salidas2.png)
 
+ ## Las famosas variables
+
+
  # ¡Felíz Programación!
  ---
  By: @Orkar504
