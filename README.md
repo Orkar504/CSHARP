@@ -366,6 +366,57 @@ namespace CSHARP
  ```
  #### Salidas2
  Ahora utilizando este nuevo conocimiento crearemos un programa pequeño utilizando tanto ***WriteLine*** como ***Write***
+
+ Haremos un programa que genere un parrafo con sus saltos de linea, utilizaremos Write como manera de colocar datos concretos que podamos cambiar dentro del código.
+ ¡¡¡Empezemos!!!
+
+ Código:
+ ```
+ using System;
+
+
+namespace CSHARP
+{
+    internal class Salidas2
+    {
+       public void salidas2()
+        {
+            Console.Write("Hola soy <<tu nombre>> ");
+            Console.WriteLine("El siguiente parrafo es para demostrar los usos de Write y WriteLine");
+            Console.Write("<<Tu nombre>> ");
+            Console.WriteLine("Eres un gran programador, recuerda todas las personas grandes empezaron con pasos pequeños, todos fuimos bebes alguna vez");
+        }
+
+    }
+}
+ ```
+
+ Código para llamar esta clase desde principal: 
+ ```
+ using System;
+
+namespace CSHARP
+{
+    internal class Principal
+    {
+        static void Main(String[] args)
+        {
+         
+            /* Llamar a salidas 2*/
+
+            Salidas2 salida2 = new Salidas2();
+            salida2.salidas2();
+
+
+        }
+    }
+}
+
+ ```
+
+ Y la consola nos muestra el siguiente mensaje:
+ ![Salidas2](Capturas-de-pantalla/Salidas/Salidas2.png)
+
  # ¡Felíz Programación!
  ---
  By: @Orkar504

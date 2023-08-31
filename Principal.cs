@@ -39,6 +39,11 @@ namespace CSHARP
              
              */
 
+            /* Llamar a salidas 2*/
+
+            Salidas2 salida2 = new Salidas2();
+            salida2.salidas2();
+
 
         }
     }
