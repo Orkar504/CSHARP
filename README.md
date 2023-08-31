@@ -309,8 +309,63 @@ namespace CSHARP
     }
 }
  ```
-
+ 
  ### En esta ocasión no hay código extra
+
+
+ ## Las Salidas o mejor conocidas en Ingles como "output"
+ Las salidas o "outputs" es como nosotros los programadores podemos decirle a la computadora que nos responda cuando le damos una instrucción.
+ Estas nos ayudan de diferentes maneras que iremos describiendo mientras avanzamos en el curso.
+
+ el programa:
+ ### Salidas
+ En esta ocasión el siguiente código es un ejemplo de como usar las salidas o "outputs" en c#
+ ```
+ using System;
+
+
+namespace CSHARP
+{
+    internal class Salidas
+    {
+        public void salida()
+        {
+            Console.WriteLine("En este se salta la linea"); // Este salta linea cada vez 
+            Console.Write("Este no salta la linea"); //Write no salta lineas 
+            Console.Write("  Ejemplo");
+        }
+    }
+}
+ ```
+
+ El ***WriteLine*** cada vez que se utiliza realiza un salto de linea.
+
+ El ***Write*** es similar a ***WriteLine*** Solo que este no realiza un salto de linea
+
+ Ejemplo de la consola:
+ ![Salidas](Capturas-de-pantalla/Salidas/Salida.png)
+
+ > Como invocar Salidas en Principal:
+ ```
+ using System;
+
+namespace CSHARP
+{
+    internal class Principal
+    {
+        static void Main(String[] args)
+        {
+           
+            /*Llamar a Salidas*/
+            Salidas salida = new Salidas();
+            salida.salida();
+          
+        }
+    }
+}
+ ```
+ #### Salidas2
+ Ahora utilizando este nuevo conocimiento crearemos un programa pequeño utilizando tanto ***WriteLine*** como ***Write***
  # ¡Felíz Programación!
  ---
  By: @Orkar504

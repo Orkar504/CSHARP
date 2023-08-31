@@ -31,10 +31,14 @@ namespace CSHARP
             syntax.sintaxis();
              */
 
-            /*Llamar a Salidas*/
+            /*Llamar a Salidas
+             
             Salidas salida = new Salidas();
             salida.salida();
           
+             
+             */
+
 
         }
     }
