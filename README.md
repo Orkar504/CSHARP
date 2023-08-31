@@ -188,12 +188,12 @@ namespace CSHARP //El "CSHARP" es el nombre del Proyecto
  using System; //Para utilizar las clases relacionadas al sistema, de ahi su nombre system
 
 
-//Las lineas vacias las ignora c#, pero es una buena práctica dejar una división para mejor legibilidad
+//Las líneas vacías las ignora c#, pero es una buena práctica dejar una división para mejor legibilidad
 
 // se utilizan las // para hacer un comentario
 // Se utiliza /**/ para hacer un bloque de comentario
 
-namespace CSHARP //namespace es utilizado para organizar el código, es el contenerdor para otras clases y otros namespaces
+namespace CSHARP //namespace es utilizado para organizar el código, es el contenedor para otras clases y otros namespaces
 { // Las {} son indicador de donde empieza y termina un bloque de código
     public class Syntaxis // la palabra reservada class es un contenedor de datos  métodos, esta permite la funcionalidad de tu programa
     {
@@ -206,7 +206,7 @@ namespace CSHARP //namespace es utilizado para organizar el código, es el conte
             } */
 
             Console.WriteLine("Explicando la sintaxis de c#"); // Console es una clase de System,  
-            Console.WriteLine("Explicando el ;"); //Toda linea de código o sentencia siempre debe terminar con ;
+            Console.WriteLine("Explicando el ;"); //Toda línea de código o sentencia siempre debe terminar con ;
 
 
         }
@@ -218,7 +218,7 @@ namespace CSHARP //namespace es utilizado para organizar el código, es el conte
 
   ***Using System;*** se coloca para para utilizar las clases relacionadas al sistema
 
-  Las ***lineas vacias*** en c# son ignoradas, pero sirven para dar orden y legibilidad al código
+  Las ***líneas vacías*** en c# son ignoradas, pero sirven para dar orden y legibilidad al código
   
   Los ***//*** Se utilizan para comentar código, como es el caso del código antes mencionado.
   >// Este es un comentario en c#
@@ -235,7 +235,7 @@ namespace CSHARP //namespace es utilizado para organizar el código, es el conte
   */
   ```
   #### Los comentarios 
-  Los comentarios en C# sirven para dar un norte de que hace el código, tambien puede servir como referencia cuando se vuelva a visitar el código saber con mayor facilidad de que se trata
+  Los comentarios en C# sirven para dar un norte de que hace el código, también puede servir como referencia cuando se vuelva a visitar el código saber con mayor facilidad de que se trata
 
   El ***namespace*** se utiliza para organizar el código, es el contenedor de clases y otros namespace
 
@@ -284,7 +284,7 @@ namespace CSHARP //namespace es utilizado para organizar el código, es el conte
 
  ### El famoso :
  # ;
- El punto y coma ";" es la pesadilla de nuevo y antiguos programadores, en el caso de c# toda sentencias/linea de código debe terminar con un punto y coma
+ El punto y coma ";" es la pesadilla de nuevo y antiguos programadores, en el caso de c# toda sentencias/línea de código debe terminar con un punto y coma
 
  ### En esta ocasión no hay código extra
  # ¡Felíz Programación!
