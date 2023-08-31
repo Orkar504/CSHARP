@@ -286,6 +286,29 @@ namespace CSHARP //namespace es utilizado para organizar el código, es el conte
  # ;
  El punto y coma ";" es la pesadilla de nuevo y antiguos programadores, en el caso de c# toda sentencias/línea de código debe terminar con un punto y coma
 
+ ahora para llamar a Sintaxis usamos el siguiente llamado en principal:
+
+ ```
+ using System;
+
+namespace CSHARP
+{
+    internal class Principal
+    {
+        static void Main(String[] args)
+        {
+            /*
+             Llamar a Syntax
+             */
+            Syntaxis syntax = new Syntaxis();
+            syntax.sintaxis();
+
+
+
+        }
+    }
+}
+ ```
  ### En esta ocasión no hay código extra
  # ¡Felíz Programación!
  ---
