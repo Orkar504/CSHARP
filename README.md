@@ -141,7 +141,7 @@ namespace CSHARP //El "CSHARP" es el nombre del Proyecto
 {
     internal class MaquinaParlante //"MaquinaParlante" es el nombre del archivo .cs
     {
-        public void Mensaje() //Este es el nombre del metodo
+        public void Mensaje() //Este es el nombre del método
         {
             Console.WriteLine("Hola <<Tu nombre>>, mucho gusto yo soy la consola de c#");
             Console.WriteLine("Esta conversación la hago para mostar la capacidad de una maquina en hablar a través de mensajes :)");
@@ -152,7 +152,7 @@ namespace CSHARP //El "CSHARP" es el nombre del Proyecto
  ```
 
  ¿Pero, como MaquinaParlante no tiene un static void Main(strings[] args) como lo podremos llamar?
- Aqui es donde entran los llamados a los métodos. como mencione anteriormente no explicare a detalle en este punto que son los llamados a metodos, es algo mas complicado que veremos adelante.
+ Aqui es donde entran los llamados a los métodos. como mencione anteriormente no explicare a detalle en este punto que son los llamados a métodos, es algo mas complicado que veremos adelante.
  
  Nos iremos al siguiente archivo:
  > Principal.cs
@@ -179,7 +179,113 @@ namespace CSHARP //El "CSHARP" es el nombre del Proyecto
  Con esto  nos debería dar el siguiente mensaje en la consola:
  ![MensajeConsola](Capturas-de-pantalla/HolaMundo/Mensaje.png)
 
+ ### Sintaxis
+ C# como todo lenguaje de programación tiene sus reglas de sintaxis, este permite mantener un orden al momento de codificar y hacer programas.
  
+ El siguiente código es un ejemplo de como funciona la sintaxis de c#
+
+ ```
+ using System; //Para utilizar las clases relacionadas al sistema, de ahi su nombre system
+
+
+//Las lineas vacias las ignora c#, pero es una buena práctica dejar una división para mejor legibilidad
+
+// se utilizan las // para hacer un comentario
+// Se utiliza /**/ para hacer un bloque de comentario
+
+namespace CSHARP //namespace es utilizado para organizar el código, es el contenerdor para otras clases y otros namespaces
+{ // Las {} son indicador de donde empieza y termina un bloque de código
+    public class Syntaxis // la palabra reservada class es un contenedor de datos  métodos, esta permite la funcionalidad de tu programa
+    {
+        public void sintaxis() //Este es un método, permite la funcionalidad del código
+        {
+
+            /*static void Main(string[] args) // Main es donde se ejecuta cualquier código que este dentro de este bloque
+            {
+
+            } */
+
+            Console.WriteLine("Explicando la sintaxis de c#"); // Console es una clase de System,  
+            Console.WriteLine("Explicando el ;"); //Toda linea de código o sentencia siempre debe terminar con ;
+
+
+        }
+    }
+
+
+}
+ ```
+
+  ***Using System;*** se coloca para para utilizar las clases relacionadas al sistema
+
+  Las ***lineas vacias*** en c# son ignoradas, pero sirven para dar orden y legibilidad al código
+  
+  Los ***//*** Se utilizan para comentar código, como es el caso del código antes mencionado.
+  >// Este es un comentario en c#
+
+  
+
+  El /* de inicio y el */ de salida nos sirven para realizar comentarios de bloque como el siguiente ejemplo:
+  ```
+  /*
+  Esto seria solo un comentario en c#
+  aunque yo coloque:
+  Console.WriteLine("Hola Mundo");
+  No se va a ejecutar, debido a que es un comentario
+  */
+  ```
+  #### Los comentarios 
+  Los comentarios en C# sirven para dar un norte de que hace el código, tambien puede servir como referencia cuando se vuelva a visitar el código saber con mayor facilidad de que se trata
+
+  El ***namespace*** se utiliza para organizar el código, es el contenedor de clases y otros namespace
+
+  Las <strong>"{ " "}"</strong> son utilizadas para indicar donde empieza y termina un bloque de código
+  ```
+  { // aqui empieza el bloque código
+
+  /* Código */
+
+
+  } //aqui termina el bloque de código
+  ```
+  La palabra reservada ***class*** se utiliza como un contenedor de datos, métodos, esto permite la funcionalidad del código
+  ```
+  public class Syntaxis
+  {
+  //método a
+  //método b
+  .
+  .
+  .
+  //método z
+
+  }
+
+  ```
+
+
+  La palabra reservada ***public*** es para indicar que cualquier clase o código pueda hacer uso de este método
+  La palabra reservada ***void*** es un método, y es algo que no retona nada,su traducción en español es ***"vacio"***
+  ```
+  public void sintaxis ()
+  {
+        /*Código*/
+  }
+  ```
+
+  El ***static void Main(string[] args)*** **{**  **}** es la función principal en cualquier proyecto de c#, este se ejecuta siempre.
+  
+  Un ejemplo del uso de métodos de ***System*** es la palabra reservada ***Console*** que permite generar salidas como por ejemplo
+  > Console.WriteLine("Hola Mundo");
+
+  sino se usara system se tendría que escribir de la siguiente manera
+
+  > System.Console.WriteLine("Hola Mundo);
+
+ ### El famoso :
+ # ;
+ El punto y coma ";" es la pesadilla de nuevo y antiguos programadores, en el caso de c# toda sentencias/linea de código debe terminar con un punto y coma
+
 
  # ¡Felíz Programación!
  ---

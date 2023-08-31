@@ -24,6 +24,12 @@ namespace CSHARP
              
              */
 
+            /*
+             Llamar a Syntax
+             */
+
+            Syntaxis syntax = new Syntaxis();
+            syntax.sintaxis();
 
 
 
