@@ -418,8 +418,136 @@ namespace CSHARP
  ![Salidas2](Capturas-de-pantalla/Salidas/Salidas2.png)
 
  ## Las famosas variables
+ 
+ Surge una incognita, ¿Como guardamos la siguiente operación para usarla mas tarde?
+
+ > Console.Write(2+2);
+
+ ¿Como guardamos este resultado? ¿Como guardamos 4 y lo usamos para despues?
+
+ Una opción seria hacer toda la operación unida.
+ 
+ > Console.Write(2+2+5);
+ Pero, ¿Que pasa si quiere seguir y seguir y seguir, existe alguna solución?
+
+ La respuesta es ***SI*** y son las ***variables***
+
+ antes de ver que son las variables primero necesitamos ver su esqueleto, su ***sintaxis***
+
+ > tipo nombreDeVariable = valor;
+
+ En C# existen diferentes tipos de variables, algunas son las siguientes 
+ ```
+int entero2 = 0; // Para números enteros
+double flotante2 = 1.23; //Para número con decimales
+string cadena2 = "cadena de texto"; //Para cadenas de texto
+char caracter2 = 'a'; // Para un solo caracter
+bool booleano2 = true; // Para los booleanos
+ ```
+ 
+ ***int:*** esto sirve para números enteros
+ 
+ ***double:*** sirve para números con decimales
+ 
+ ***cadena:*** sirve para cadenas de texto como las oraciones
+ 
+ ***caracter:*** sirve para un solo caracter
+ 
+ ***booleano:*** sirve para dictar booleanos osea, falso o verdadero
+
+ Pero no solo existen estas variables, tambien, tenemos variables globales de la clase que permite su uso en toda el programa.
+
+ ```
+public int entero = 0;
+public double flotante = 1.23;
+public string cadena = "cadena de texto";
+public char caracter = 'a';
+public bool booleano = true;
+private bool esPrivado = true;
+ ```
+ Se que surge una pregunta, que es eso de "public" y "private", bueno como parentesis para explicar estas palabras reservadas,
+ "public" su traducción en español es público, esto permite que cualquier otro programa pueda acceder a esta variable. Mientras que
+ "private" solo permite que el programa donde se encuentra esta variable lo utilize. Bueno pero esto lo explicaremos mas adelante.
+
+ bien ahora miremos el programa. 
+ ```
+ using System;
 
 
+namespace CSHARP
+{
+    internal class Variables
+    {
+        /* Variables globales de la clase*/
+        public int entero = 0;
+        public double flotante = 1.23;
+        public string cadena = "cadena de texto";
+        public char caracter = 'a';
+        public bool booleano = true;
+        private bool esPrivado = true;
+        public void variables()
+        {
+            Console.Write("Números enteros en c sharp con int: ");
+            Console.WriteLine(entero);
+            Console.Write("Números con sus decimales en c sharp con double: ");
+            Console.WriteLine(flotante);
+            Console.Write("Cadena de caracteres con string : ");
+            Console.WriteLine(cadena);
+            Console.Write("un solo character con char : ");
+            Console.WriteLine(caracter);
+            Console.Write("Los booleanos para saber si algo es verdadero o falso con bool : ");
+            Console.WriteLine(booleano);
+
+            /* Variables locales */
+
+            int entero2 = 0; // Para números enteros
+            double flotante2 = 1.23; //Para número con decimales
+            string cadena2 = "cadena de texto"; //Para cadenas de texto
+            char caracter2 = 'a'; // Para un solo caracter
+            bool booleano2 = true; // Para los booleanos
+
+
+        }
+
+    
+    }
+}
+ ```
+
+ Y para llamar este código en Principal
+ ```
+ using System;
+
+namespace CSHARP
+{
+    internal class Principal
+    {
+        static void Main(String[] args)
+        {
+            /*
+             Llamar a variables
+             */
+            Variables variables = new Variables();
+
+            variables.variables();
+
+            //Llamando a las variables globales de variables
+            
+            Console.Write("Llamando las variables globales de variables a Principal: ");
+            Console.WriteLine(variables.cadena);
+
+            //editando la variable de variables para que ahora diga en el resto del código edicion 1
+            variables.cadena = "edición 1";
+            Console.Write("Editando la variale cadena con respecto a este código: ");
+            Console.WriteLine(variables.cadena);
+
+        }
+    }
+}
+ ```
+
+ ### Variables 2
+ Ahora siguiendo la temática del repositorio haremos un ejemplo del uso de variables en c#
  # ¡Felíz Programación!
  ---
  By: @Orkar504

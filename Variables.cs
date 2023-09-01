@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Security.Cryptography.X509Certificates;
+
 
 namespace CSHARP
 {
@@ -11,6 +11,7 @@ namespace CSHARP
         public string cadena = "cadena de texto";
         public char caracter = 'a';
         public bool booleano = true;
+        private bool esPrivado = true;
         public void variables()
         {
             Console.Write("Números enteros en c sharp con int: ");
@@ -26,14 +27,14 @@ namespace CSHARP
 
             /* Variables locales */
 
-            int entero2 = 0;
-         double flotante2 = 0.00;
-         string cadena2 = "cadena de texto";
-         char caracter2 = 'a';
-         bool booleano2 = true;
+            int entero2 = 0; // Para números enteros
+            double flotante2 = 1.23; //Para número con decimales
+            string cadena2 = "cadena de texto"; //Para cadenas de texto
+            char caracter2 = 'a'; // Para un solo caracter
+            bool booleano2 = true; // Para los booleanos
 
 
-    }
+        }
 
     
     }
