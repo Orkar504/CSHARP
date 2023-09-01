@@ -49,7 +49,6 @@ namespace CSHARP
 
             /*
              Llamar a variables
-             */
             Variables variables = new Variables();
 
             variables.variables();
@@ -63,7 +62,16 @@ namespace CSHARP
             variables.cadena = "edición 1";
             Console.Write("Editando la variale cadena con respecto a este código: ");
             Console.WriteLine(variables.cadena);
+             */
 
+            /*
+             Llamando a Variables2
+             
+             */
+
+            Variables2 variables2 = new Variables2();
+
+            variables2.variables2();
 
 
         }

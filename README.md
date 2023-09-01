@@ -469,7 +469,7 @@ private bool esPrivado = true;
  "public" su traducción en español es público, esto permite que cualquier otro programa pueda acceder a esta variable. Mientras que
  "private" solo permite que el programa donde se encuentra esta variable lo utilize. Bueno pero esto lo explicaremos mas adelante.
 
- bien ahora miremos el programa. 
+ bien ahora miremos el programa llamado Variables.cs. 
  ```
  using System;
 
@@ -514,7 +514,7 @@ namespace CSHARP
 }
  ```
 
- Y para llamar este código en Principal
+ Y para llamar este código en Principal.cs
  ```
  using System;
 
@@ -548,6 +548,59 @@ namespace CSHARP
 
  ### Variables 2
  Ahora siguiendo la temática del repositorio haremos un ejemplo del uso de variables en c#
+
+ El código de Variables2.cs seria el siguiente:
+
+ ```
+ using System;
+
+
+namespace CSHARP
+{
+    internal class Variables2
+    {
+        public string nombre = "<<tu nombre>>";
+
+        private int edad =  21;
+
+        public char seccion = 'a';
+
+        public double nota = 90.9;
+
+        public bool estudiante = true;
+        public void variables2()
+        {
+            string clase = "Programación";
+            double extra = 2.1;
+            double total = 0;
+
+            Console.Write("¡Hola! soy ");
+            Console.WriteLine(nombre);
+            Console.Write("Tengo los siguientes años: ");
+            Console.WriteLine(edad);
+
+            Console.Write("Soy de la seccion");
+            Console.WriteLine(seccion);
+            Console.Write("De la clase de:");
+            Console.WriteLine(clase);
+            Console.Write("Mi nota es de");
+            Console.WriteLine(nota);
+            Console.Write("Pero con el punto extra que me dio el profe, ahora tengo");
+
+            total = nota + extra; // sumando nota con extra para guardarlo en una variable local llamada total
+            nota = total; //Asignandole el valor de total a nota
+
+            Console.WriteLine(nota);
+
+            
+
+        }
+    }
+}
+
+ ```
+
+ El código para llamar a Variables2.cs desde Principal.cs
  # ¡Felíz Programación!
  ---
  By: @Orkar504
